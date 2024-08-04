@@ -57,7 +57,7 @@ This will run whenever a button is clicked which has the same id.
 
 *The id is made when creating the button: `Button b = Button.success(id, label);`*
 #### Handle String Selections
-Ass `@OnStringSelection` with an `id` to a method, give the method a name, make it static and add `StringSelectionEvent event` as the parameter.
+Add `@OnStringSelection` with an `id` to a method, give the method a name, make it static and add `StringSelectionEvent event` as the parameter.
 ```java
 @OnStringSelection(id = "exampleStringSelection")
 public static void exampleStringSelection(StringSelectionEvent event) {
