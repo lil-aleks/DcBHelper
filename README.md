@@ -36,7 +36,7 @@ JDA bot = JDABuilder.createDefault(YOUR_TOKEN_HERE) // Enter your token
 ### Some Events
 Here are some examples how to make some Events.
 #### Create a slash command
-Add `@OnCommand()` with a `name` and `description` to a method, give the method a name and make it static and add `SlashCommandInteractionEvent event` as the parameter.
+Add `@OnCommand` with a `name` and `description` to a method, give the method a name and make it static and add `SlashCommandInteractionEvent event` as the parameter.
 ```java
 @OnCommand(name = "example", description = "example command")
 public static void example(SlashCommandInteractionEvent event) {
